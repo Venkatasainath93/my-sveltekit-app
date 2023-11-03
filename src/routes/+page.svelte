@@ -1,5 +1,6 @@
 <script>
-	import Footer from "../lib/components/Footer.svelte";
+	import DockedCart from "../lib/components/DockedCart.svelte";
+import Footer from "../lib/components/Footer.svelte";
 import Header from "../lib/components/Header.svelte";
 	import PlpPageLayout from "../lib/components/PLPPageLayout.svelte";
 
@@ -20,3 +21,5 @@ import Header from "../lib/components/Header.svelte";
 
 	<Footer />
 </div>
+
+<DockedCart />
