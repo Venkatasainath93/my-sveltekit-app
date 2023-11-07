@@ -7,12 +7,13 @@
     export let price;
     export let sku;
     export let title;
+    export let imgPath;
 </script>
 
 <div class="flex gap-3 justify-between">
 
     <div class="w-[125px]">
-        <ProductImg {hex} />
+        <ProductImg {imgPath} />
     </div>
     
     <div class="flex-grow">

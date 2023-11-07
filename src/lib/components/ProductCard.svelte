@@ -18,8 +18,8 @@
     }
     $: selectedVariant = variants[selectedVariantIndex];
 </script>
-<div class="grid border gap-2 p-4">
-    <ProductImg hex={selectedVariant.hex}/>
+<div class="grid border gap-3 p-4">
+    <ProductImg imgPath={selectedVariant.imgPath}/>
     <div class="font-bold">{title}</div>
     <div class="flex gap-2">
         {#each variants as variant, index}
