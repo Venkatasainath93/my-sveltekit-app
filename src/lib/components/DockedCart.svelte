@@ -7,9 +7,11 @@
 {#if $opencart}
 <div class="fixed top-0 right-0 w-[550px] border-l bg-white h-full">
 
-    <div class="bg-black flex text-white justify-between gap-6 p-2">
+    <div class="bg-black flex text-white justify-between gap-6 p-2 text-18">
         Cart
-        <button on:click={() => {$opencart = false}}>close me</button>    
+        <button on:click={() => {$opencart = false}}>
+            <iconify-icon class="text-24" icon="material-symbols:close"></iconify-icon>
+        </button>    
     </div>
     
     <div class="p-3 grid gap-2">

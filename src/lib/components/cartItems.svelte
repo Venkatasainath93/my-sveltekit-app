@@ -24,7 +24,9 @@
     </div>
 
     <div class="">
-        <button class="" on:click={() => removeFromCart(sku)}>Delete</button>
+        <button class="" on:click={() => removeFromCart(sku)}>
+            <iconify-icon class="text-30 font-bold" icon="material-symbols-light:delete-outline"></iconify-icon>
+        </button>
     </div>
     
 </div>
