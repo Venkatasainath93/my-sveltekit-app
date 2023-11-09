@@ -3,11 +3,11 @@ import { error } from '@sveltejs/kit';
 
 
 export async function load({ params }) {
-   // const url = 'http://apigatewaytest.logitech.com:4502/content/logitech/amr/live/en_us/test.model.json';
-      const url = 'http://aws13aemdev05.logitech.com:4502/content/logitech/amr/live/en_us/test.model.json';
+    const url = 'http://apigatewaytest.logitech.com:4502/content/logitech/amr/live/en_us/test.model.json';
+      
     const res = await fetch(url, {
         headers: {
-            Authorization: 'Basic ' + Buffer.from('admin:LogitechAem@1804').toString('base64'),
+            Authorization: 'Basic ' + Buffer.from('admin:admin').toString('base64'),
         },
     });
 
