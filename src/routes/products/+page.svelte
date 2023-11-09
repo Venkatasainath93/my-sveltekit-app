@@ -5,8 +5,8 @@
 
     export let data;
 
-    const cloudinaryUrl = 'https://cloudinary-all.logitech.com'
-	let bgImg = data.aemdata.training_image.fileReference;
+   // const cloudinaryUrl = 'https://cloudinary-all.logitech.com'
+	//let bgImg = data.aemdata.training_image.fileReference;
 </script>
 <main class="grid gap-6 ">
     <div class="border p-6">Filters</div>
@@ -19,5 +19,5 @@
             {/each}
         </div>
     </div>
-    <Image imgPath={cloudinaryUrl+bgImg}/>
+    <!-- <Image imgPath={cloudinaryUrl+bgImg}/> -->
 </main>
