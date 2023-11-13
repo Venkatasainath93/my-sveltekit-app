@@ -1,6 +1,9 @@
 <script>
     export let hex;
     export let imgPath;
+    export let sku;
 </script>
-<div class="aspect-4/3 bg-contain bg-no-repeat bg-center"
-style:background-image=url({imgPath})></div>
+<a href="/pdp/{sku}">
+    <div class="aspect-4/3 bg-contain bg-no-repeat bg-center"
+    style:background-image=url({imgPath})></div>
+</a>

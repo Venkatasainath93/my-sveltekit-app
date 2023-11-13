@@ -19,7 +19,7 @@
     $: selectedVariant = variants[selectedVariantIndex];
 </script>
 <div class="grid border gap-3 p-4">
-    <ProductImg imgPath={selectedVariant.imgPath}/>
+    <ProductImg imgPath={selectedVariant.imgPath} sku={selectedVariant.sku}/>
     <div class="font-bold">{title}</div>
     <div class="flex gap-2">
         {#each variants as variant, index}
